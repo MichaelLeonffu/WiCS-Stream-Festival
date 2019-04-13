@@ -1,0 +1,58 @@
+//helloWorld.cpp C++
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+	bool goodDay = true;
+	if(goodDay)
+		cout << "hello world!" << endl;
+	else
+		cout << "bye world." << endl;
+
+	return 0;
+}
+
+//result "hello world!"
+
+----------------------------------------------------
+
+//helloWorld.java JAVA
+
+public class helloWorld{
+
+	public static void main(String args[]){
+		boolean goodDay = true;
+		if(goodDay)
+			System.out.println("hello world!");
+		else
+			System.out.println("bye world.");
+	}
+}
+
+//result "hello world!"
+
+----------------------------------------------------
+
+//helloWorld.js JAVASCRIPT
+
+var goodDay = true
+if(goodDay)
+	console.log("hello world!")
+else
+	console.log("bye world.")
+
+//result "hello world!"
+
+----------------------------------------------------
+
+#helloWorld.py PYTHON
+
+goodDay = True
+if goodDay:
+	print "hello world!"
+else:
+	print "bye world."
+
+#result: "hello world!"
